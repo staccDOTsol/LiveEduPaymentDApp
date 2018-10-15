@@ -1,0 +1,589 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ethereum-ico\n"
+"POT-Creation-Date: 2018-10-02 14:27+0700\n"
+"PO-Revision-Date: 2018-03-13 09:23+0700\n"
+"Last-Translator: \n"
+"Language-Team: ethereumicoio\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: wp-svn\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+"X-Poedit-SearchPathExcluded-3: nbproject\n"
+
+#: ethereum-ico.admin.php:27 ethereum-ico.admin.php:196
+#: ethereum-ico.admin.php:250 ethereum-ico.admin.php:311
+#: ethereum-ico.admin.php:339 ethereum-ico.admin.php:340
+#: ethereum-ico.admin.php:346 ethereum-ico.admin.php:350
+#: ethereum-ico.admin.php:356 ethereum-ico.admin.php:360
+#: ethereum-ico.admin.php:366 ethereum-ico.admin.php:370
+#: ethereum-ico.admin.php:533 ethereum-ico.admin.php:537
+#: ethereum-ico.admin.php:553 ethereum-ico.admin.php:570 ethereum-ico.php:82
+#: ethereum-ico.php:167 ethereum-ico.php:890
+msgid "ETH"
+msgstr ""
+
+#: ethereum-ico.admin.php:29 ethereum-ico.php:62 ethereum-ico.php:317
+msgid "Input ETH amount"
+msgstr ""
+
+#: ethereum-ico.admin.php:33 ethereum-ico.admin.php:382
+msgid "Buy token with Metamask"
+msgstr ""
+
+#: ethereum-ico.admin.php:66
+msgid "Settings saved."
+msgstr ""
+
+#: ethereum-ico.admin.php:82 ethereum-ico.php:970
+msgid "EthereumICO Settings"
+msgstr ""
+
+#: ethereum-ico.admin.php:267
+msgid "Standard"
+msgstr ""
+
+#: ethereum-ico.admin.php:278
+msgid "Token Symbol"
+msgstr ""
+
+#: ethereum-ico.admin.php:282
+msgid "The symbol of your ICO token. E.g. TSX, not \"Test Coin\"."
+msgstr ""
+
+#: ethereum-ico.admin.php:288
+msgid "Gas Limit"
+msgstr ""
+
+#: ethereum-ico.admin.php:292
+msgid "The gas limit to buy your ICO token"
+msgstr ""
+
+#: ethereum-ico.admin.php:298
+msgid "Gas Price, Gwei"
+msgstr ""
+
+#: ethereum-ico.admin.php:302
+msgid "The default gas price to buy your ICO token in Gwei units."
+msgstr ""
+
+#: ethereum-ico.admin.php:308 ethereum-ico.admin.php:589
+msgid "Base currency"
+msgstr ""
+
+#: ethereum-ico.admin.php:311
+msgid "Input the base currency code"
+msgstr ""
+
+#: ethereum-ico.admin.php:312
+#, php-format
+msgid "The base currency code to show in the token sell widget, progress bar, e.t.c. In most cases the default ETH is OK. Use USD or other fiat currency three letter code if you have implemented %1$s interface in your %2$sCrowdsale%3$s smart contract. Make sure to configure %4$s if non-USD fiat currency is used here."
+msgstr ""
+
+#: ethereum-ico.admin.php:316 ethereum-ico.admin.php:330
+#: ethereum-ico.admin.php:457 ethereum-ico.php:953
+msgid "openexchangerates.org App Id"
+msgstr ""
+
+#: ethereum-ico.admin.php:322
+msgid "Base symbol"
+msgstr ""
+
+#: ethereum-ico.admin.php:325
+msgid "Input the base currency symbol"
+msgstr ""
+
+#: ethereum-ico.admin.php:326
+#, php-format
+msgid "The base currency symbol to show in the progress bar widget. In most cases the default empty is OK. Use $ or other fiat currency symbol if you have implemented %1$s interface in your %2$sCrowdsale%3$s smart contract. Make sure to configure %4$s if non-USD fiat currency is used here."
+msgstr ""
+
+#: ethereum-ico.admin.php:336
+msgid "Placeholder"
+msgstr ""
+
+#: ethereum-ico.admin.php:339
+#, php-format
+msgid "Input %s amount"
+msgstr ""
+
+#: ethereum-ico.admin.php:340
+#, php-format
+msgid "It is a helper string displayed in the %1$s input field for your customer to know where to input %1$s amount to buy your tokens."
+msgstr ""
+
+#: ethereum-ico.admin.php:346
+#, php-format
+msgid "Increase/Decrease step, in %s"
+msgstr ""
+
+#: ethereum-ico.admin.php:350
+#, php-format
+msgid "The step to adjust %s amount with up/down buttons"
+msgstr ""
+
+#: ethereum-ico.admin.php:356
+#, php-format
+msgid "Min allowed value, in %s"
+msgstr ""
+
+#: ethereum-ico.admin.php:360
+#, php-format
+msgid "The minimum %s amount allowed for token purchase. Can be used to workaround some legal circumstances."
+msgstr ""
+
+#: ethereum-ico.admin.php:366
+#, php-format
+msgid "Max allowed value, in %s"
+msgstr ""
+
+#: ethereum-ico.admin.php:370
+#, php-format
+msgid "The maximum %s amount allowed for token purchase. Can be used to workaround some legal circumstances."
+msgstr ""
+
+#: ethereum-ico.admin.php:371 ethereum-ico.admin.php:401
+#: ethereum-ico.admin.php:413 ethereum-ico.admin.php:485
+#: ethereum-ico.admin.php:562 ethereum-ico.admin.php:590
+#, php-format
+msgid "%1$sPRO version only!%2$s"
+msgstr ""
+
+#: ethereum-ico.admin.php:379
+msgid "Buy Button Text"
+msgstr ""
+
+#: ethereum-ico.admin.php:383
+msgid "The text to display on the BUY button"
+msgstr ""
+
+#: ethereum-ico.admin.php:389
+msgid "Description"
+msgstr ""
+
+#: ethereum-ico.admin.php:391
+msgid "Add some notes"
+msgstr ""
+
+#: ethereum-ico.admin.php:396
+msgid "Transaction data"
+msgstr ""
+
+#: ethereum-ico.admin.php:400
+msgid "Data to be sent in the transaction. It should starts with '0x' without quotes."
+msgstr ""
+
+#: ethereum-ico.admin.php:409
+msgid "Bounty"
+msgstr ""
+
+#: ethereum-ico.admin.php:411
+msgid "Put your bounty JSON code here"
+msgstr ""
+
+#: ethereum-ico.admin.php:412
+msgid "The optional JSON array of your bounty values. Note that it should be supported in your crowdsale contract. Example: <code>[[7, 40], [7, 30], [7, 20], [7, 10], [7, 5]]</code>. The 7 number is for days count. The 40, 30, 20, 10, 5 are percents of additional tokens to be sent to buyer for free."
+msgstr ""
+
+#: ethereum-ico.admin.php:420
+msgid "Blockchain"
+msgstr ""
+
+#: ethereum-ico.admin.php:424
+msgid "The blockchain used: mainnet or ropsten. Use mainnet in production, and ropsten in test mode. See plugin documentation for the testing guide."
+msgstr ""
+
+#: ethereum-ico.admin.php:430
+msgid "Etherscan Api Key"
+msgstr ""
+
+#: ethereum-ico.admin.php:433
+msgid "Put your Etherscan Api Key here"
+msgstr ""
+
+#: ethereum-ico.admin.php:434
+#, php-format
+msgid "The API key for the %1$s. You need to %2$sregister%3$s on this site to obtain it."
+msgstr ""
+
+#: ethereum-ico.admin.php:438
+#, php-format
+msgid "Install some of the %1$spersistent cache WP plugins%2$s to overcome the etherscan API limits. In this case the API would be queried only once per 5 minutes."
+msgstr ""
+
+#: ethereum-ico.admin.php:446
+msgid "Infura.io Api Key"
+msgstr ""
+
+#: ethereum-ico.admin.php:449
+msgid "Put your Infura.io Api Key here"
+msgstr ""
+
+#: ethereum-ico.admin.php:450
+#, php-format
+msgid "The API key for the %1$s. You need to register on this site to obtain it."
+msgstr ""
+
+#: ethereum-ico.admin.php:460
+msgid "Put your openexchangerates.org App Id here"
+msgstr ""
+
+#: ethereum-ico.admin.php:461
+#, php-format
+msgid "<p>The App Id for the %1$s. You need to register on this site to obtain it.</p><p>This API is used to show rates for different currencies you want to display.</p><p><strong>Note:</strong> you do not need it if you want to display only your token, <strong>BTC</strong> and/or <strong>USD</strong>.</p><p>Install some of the %2$spersistent cache WP plugins%3$s to overcome the free account API limits in a 1000 requests per month. In this case the API would be queried only once per 1 hour.</p>"
+msgstr ""
+
+#: ethereum-ico.admin.php:470
+msgid "List of coins"
+msgstr ""
+
+#: ethereum-ico.admin.php:473
+msgid "Your_token,BTC,USD,..."
+msgstr ""
+
+#: ethereum-ico.admin.php:474
+msgid "<p>The comma separated list of coins to convert the amount inputted by user.</p><p>Typically, it is your token symbol, USD, BTC.</p><p><strong>Note:</strong> if you want to show icons for coins, make sure that the folder <strong>icons</strong> has <strong>png</strong> files with the same names as coins you want to display, e.g. <strong>USD.png</strong>, <strong>BTC.png</strong>, <strong>YourCoinName.png</strong></p>"
+msgstr ""
+
+#: ethereum-ico.admin.php:480
+msgid "Show icons?"
+msgstr ""
+
+#: ethereum-ico.admin.php:484
+msgid "Check to show icons for coins you display.<p><strong>Note:</strong> make sure that the folder <strong>icons</strong> has <strong>PNG</strong> files with the same names as coins you want to display, e.g. <strong>USD.png</strong>, <strong>BTC.png</strong>, <strong>YourCoinName.png</strong></p>"
+msgstr ""
+
+#: ethereum-ico.admin.php:493
+msgid "The ICO token address"
+msgstr ""
+
+#: ethereum-ico.admin.php:496
+msgid "Put your ICO token address here"
+msgstr ""
+
+#: ethereum-ico.admin.php:497
+msgid "The ethereum address of your ICO ERC20 token."
+msgstr ""
+
+#: ethereum-ico.admin.php:503
+msgid "The ICO crowdsale contract address"
+msgstr ""
+
+#: ethereum-ico.admin.php:506
+msgid "Put your ICO crowdsale token address here"
+msgstr ""
+
+#: ethereum-ico.admin.php:507
+msgid "The ethereum address of your ICO crowdsale contract. You can input a simple Ethereum address here instead of the Crowdsale contract address. In this case Ether would be sent directly to this your address, but note that you’ll need to send tokens to your customers manually then."
+msgstr ""
+
+#: ethereum-ico.admin.php:513
+msgid "ICO period in days"
+msgstr ""
+
+#: ethereum-ico.admin.php:517
+msgid "The number of days your ICO would be opened."
+msgstr ""
+
+#: ethereum-ico.admin.php:523
+msgid "The ICO token decimals number"
+msgstr ""
+
+#: ethereum-ico.admin.php:526
+msgid "Put the decimals field of your ICO token contract"
+msgstr ""
+
+#: ethereum-ico.admin.php:527
+msgid "The decimals field of your ICO ERC20 token. The typical value is 1000000000000000000."
+msgstr ""
+
+#: ethereum-ico.admin.php:533
+#, php-format
+msgid "The ICO token rate, in %s"
+msgstr ""
+
+#: ethereum-ico.admin.php:536
+msgid "Put the token rate here"
+msgstr ""
+
+#: ethereum-ico.admin.php:537
+#, php-format
+msgid "The number of tokens per 1 %1$s, i.e. the token to %1$s exchange rate"
+msgstr ""
+
+#: ethereum-ico.admin.php:543
+msgid "ICO start date"
+msgstr ""
+
+#: ethereum-ico.admin.php:546
+msgid "Set the ICO date"
+msgstr ""
+
+#: ethereum-ico.admin.php:547
+msgid "The date when your ICO would start from."
+msgstr ""
+
+#: ethereum-ico.admin.php:553
+#, php-format
+msgid "ICO soft cap, in %s"
+msgstr ""
+
+#: ethereum-ico.admin.php:557
+#, php-format
+msgid "<p>A soft cap is the amount received at which your crowdsale will be considered successful. It is the minimal amount required by your project for success. You are expected to refund all money if this cap would not be reached.</p><p>This feature uses %1$s `API`. Install some of the %2$spersistent cache WP plugins%3$s to overcome the %4$s API limits. In this case the API would be queried only once per 5 minutes.</p>"
+msgstr ""
+
+#: ethereum-ico.admin.php:570
+#, php-format
+msgid "ICO hard cap, in %s"
+msgstr ""
+
+#: ethereum-ico.admin.php:574
+#, php-format
+msgid "<p>A hard cap is defined as the maximum amount a crowdsale will receive. The crowdsale is expected to stop after this cap is reached.</p><p>This feature uses %1$s `API`. Install some of the %2$spersistent cache WP plugins%3$s to overcome the %4$s API limits. In this case the API would be queried only once per 5 minutes.</p>"
+msgstr ""
+
+#: ethereum-ico.admin.php:584
+msgid "Private sale seed"
+msgstr ""
+
+#: ethereum-ico.admin.php:588
+#, php-format
+msgid "<p>An amount of funds gained in fiat or non-Ether cryptocurrency in the %s.</p>"
+msgstr ""
+
+#: ethereum-ico.admin.php:602
+msgid "Save Changes"
+msgstr ""
+
+#: ethereum-ico.admin.php:603
+msgid "Are you sure you want to delete all EthereumICO options?"
+msgstr ""
+
+#: ethereum-ico.admin.php:603
+msgid "Reset"
+msgstr ""
+
+#: ethereum-ico.admin.php:608
+msgid "Need help to develop a ERC20 token for your ICO?"
+msgstr ""
+
+#: ethereum-ico.admin.php:610 ethereum-ico.admin.php:617
+#, php-format
+msgid "Feel free to %1$shire me!%2$s"
+msgstr ""
+
+#: ethereum-ico.admin.php:615
+msgid "Need help to configure this plugin?"
+msgstr ""
+
+#: ethereum-ico.admin.php:622
+msgid "Want to accept paypal or Bitcoin for your ICO tokens?"
+msgstr ""
+
+#: ethereum-ico.admin.php:624
+#, php-format
+msgid "Try the %1$sCryptocurrency Product for WooCommerce%2$s plugin!"
+msgstr ""
+
+#: ethereum-ico.admin.php:629
+msgid "Want to create Ethereum wallets on your Wordpress site?"
+msgstr ""
+
+#: ethereum-ico.admin.php:631
+#, php-format
+msgid "Install the %1$sWordPress Ethereum Wallet plugin%2$s!"
+msgstr ""
+
+#: ethereum-ico.admin.php:636
+msgid "Want to accept Ether or any ERC20/ERC223 token in your WooCommerce store?"
+msgstr ""
+
+#: ethereum-ico.admin.php:638
+#, php-format
+msgid "Install the %1$sEther and ERC20 tokens WooCommerce Payment Gateway%2$s plugin!"
+msgstr ""
+
+#: ethereum-ico.php:71 ethereum-ico.php:236
+#, php-format
+msgid "Buy %s with<br>Metamask"
+msgstr ""
+
+#: ethereum-ico.php:74
+#, php-format
+msgid "Make sure that you send Ether from a wallet that supports ERC20 tokens or from an address for which you control the private key: Otherwise you will not be able to interact with the %s tokens received. Do not send ETH directly from an exchange to the ICO address."
+msgstr ""
+
+#: ethereum-ico.php:114 ethereum-ico.php:205
+#, php-format
+msgid "Gas Limit: %s"
+msgstr ""
+
+#: ethereum-ico.php:362 ethereum-ico.php:948
+msgid "K"
+msgstr ""
+
+#: ethereum-ico.php:364 ethereum-ico.php:949
+msgid "M"
+msgstr ""
+
+#: ethereum-ico.php:379 ethereum-ico.php:409
+msgid "Result code is not 200"
+msgstr ""
+
+#: ethereum-ico.php:383 ethereum-ico.php:413
+msgid "Empty body"
+msgstr ""
+
+#: ethereum-ico.php:387
+msgid "No total_received field"
+msgstr ""
+
+#: ethereum-ico.php:417
+msgid "No result field"
+msgstr ""
+
+#: ethereum-ico.php:468 ethereum-ico.php:541 ethereum-ico.php:592
+msgid "Error!"
+msgstr ""
+
+#: ethereum-ico.php:484 ethereum-ico.php:494 ethereum-ico.php:950
+#, php-format
+msgid "%1$s%2$s%3$s"
+msgstr ""
+
+#: ethereum-ico.php:504
+#, php-format
+msgid "%sETH"
+msgstr ""
+
+#: ethereum-ico.php:505 ethereum-ico.php:951
+#, php-format
+msgid "%s%% Complete"
+msgstr ""
+
+#: ethereum-ico.php:510
+#, php-format
+msgid "Hard: %s"
+msgstr ""
+
+#: ethereum-ico.php:638 ethereum-ico.php:682 ethereum-ico.php:749
+msgid "Account"
+msgstr ""
+
+#: ethereum-ico.php:642 ethereum-ico.php:686 ethereum-ico.php:753
+msgid "Input your ethereum account address"
+msgstr ""
+
+#: ethereum-ico.php:696
+msgid "Referral link"
+msgstr ""
+
+#: ethereum-ico.php:706
+msgid "Copy"
+msgstr ""
+
+#: ethereum-ico.php:742
+msgid "My account only"
+msgstr ""
+
+#: ethereum-ico.php:766
+msgid "#"
+msgstr ""
+
+#: ethereum-ico.php:767
+msgid "Amount"
+msgstr ""
+
+#: ethereum-ico.php:768
+#, php-format
+msgid "Amount, %s"
+msgstr ""
+
+#: ethereum-ico.php:769
+msgid "Date"
+msgstr ""
+
+#: ethereum-ico.php:770
+msgid "Tx"
+msgstr ""
+
+#: ethereum-ico.php:935
+msgid "Download MetaMask"
+msgstr ""
+
+#: ethereum-ico.php:936
+msgid "Unlock your MetaMask account please"
+msgstr ""
+
+#: ethereum-ico.php:937
+msgid "Failed to get account balance"
+msgstr ""
+
+#: ethereum-ico.php:938
+msgid "MetaMask network mismatch. Choose another network or ask site administrator."
+msgstr ""
+
+#: ethereum-ico.php:939
+msgid "This is an unknown network."
+msgstr ""
+
+#: ethereum-ico.php:940
+msgid "Copied to clipboard"
+msgstr ""
+
+#: ethereum-ico.php:941
+msgid "You have rejected the token buy operation."
+msgstr ""
+
+#: ethereum-ico.php:942
+msgid "Success! Tx hash: "
+msgstr ""
+
+#: ethereum-ico.php:943
+msgid "Failed to get contract"
+msgstr ""
+
+#: ethereum-ico.php:944
+msgid "Empty address requested for load_transactions!"
+msgstr ""
+
+#: ethereum-ico.php:945
+msgid " days"
+msgstr ""
+
+#: ethereum-ico.php:946
+msgid " hours"
+msgstr ""
+
+#: ethereum-ico.php:947
+msgid " minutes"
+msgstr ""
+
+#: ethereum-ico.php:952
+msgid "recently"
+msgstr ""
+
+#: ethereum-ico.php:953
+#, php-format
+msgid "Currency is unknown or the %s is not configured correctly."
+msgstr ""
+
+#: ethereum-ico.php:971
+msgid "EthereumICO"
+msgstr ""
+
+#: ethereum-ico.php:990
+msgid "Settings"
+msgstr ""
